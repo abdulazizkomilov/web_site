@@ -10,6 +10,7 @@ pycodestyle = "==2.5.0"
 pytz = "==2018.5"
 sqlparse = "==0.2.4"
 Django = "==2.2.13"
+django-allauth = "*"
 
 [dev-packages]
 
