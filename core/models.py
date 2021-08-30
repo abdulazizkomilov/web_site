@@ -25,9 +25,7 @@ class Item(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return reverse("core:product", kwargs={
-            'slug': self.slug
-        })
+        return reverse("core:product", kwargs=[str(self.slug)])
 
 class OrderItem(models.Model):
     item = models.ForeignKey(Item, on_delete=models.CASCADE)
