@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf31a2b-d0c8-40a0-9ef1-50b74583a124" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web_site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web_site.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cli.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/commands.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/shared.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/0002_auto_20210830_1604.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/script.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djecommerce/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djecommerce/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/item_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/item_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/checkout-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/item_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product-page.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +31,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1xQmJvlgb5e8PTvg5sSZz56EM38" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -47,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -100,7 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1630295627783</updated>
       <workItem from="1630295630171" duration="5127000" />
-      <workItem from="1630305623579" duration="8729000" />
+      <workItem from="1630305623579" duration="17869000" />
+      <workItem from="1630325316697" duration="2408000" />
     </task>
     <servers />
   </component>

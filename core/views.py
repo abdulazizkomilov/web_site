@@ -1,17 +1,24 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
+from django.views.generic import ListView, DetailView
 from .models import Item
 
-
-class CheckoutPegeView(TemplateView):
-    template_name = 'checkout-page.html'
-
-class ProductPageView(TemplateView):
-    template_name = 'product-page.html'
+def checkout(request):
+    return render(request, 'checkout.html')
 
 
-def item_list(request):
-    context = {
-        'items': Item.objects.all()
-    }
-    return render(request, "home-page.html", context)
+
+# def product(request):
+#     context = {
+#         'items': Item.objects.all()
+#     }
+#     return render(request, 'product.html', context)
+
+
+class HomeView(ListView):
+    model = Item
+    template_name = 'home.html'
+
+
+class ItemDetailView(DetailView):
+    model = Item
+    template_name = 'product.html'
